@@ -1,0 +1,5 @@
+Don't insert RowRepeat and ColRepeat in the same row or column
+
+Don't insert multiple row repeat in the same row
+
+Don't insert multiple col repeat in the same col

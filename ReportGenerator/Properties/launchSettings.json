@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReportGenerator": {
+      "commandName": "Project",
+      "workingDirectory": "J:\\Google Drive\\Software projects\\ReportGenerator"
+    }
+  }
+}
