@@ -5,16 +5,38 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion> 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageVersion>1.0.4</PackageVersion>
+		<PackageVersion>1.0.6</PackageVersion>
 		<IncludeBuildOutput>true</IncludeBuildOutput>
+		<Description>
+			DocX Generator generates reports in the form of word files based on template file. The template is a normal word file that is easy to edit and design. The template file is filled with data. The data is assumed to exist in Json data format; thus allowing complex data layout to be mapped to the report.
+			The template is designed by inserting directives inside label elements.
+		</Description>
+		<RepositoryUrl>
+			https://github.com/Mohamed1984/DoxXGenerator/tree/master
+		</RepositoryUrl>
+		<PackageProjectUrl>
+			https://github.com/Mohamed1984/DoxXGenerator/tree/master
+		</PackageProjectUrl>
+		<PackageLicenseFile>
+			LICENSE.TXT
+		</PackageLicenseFile>
+		<Authors>
+			Mohamed Hamdy Merzban (mhm00@fayoum.edu.eg)
+		</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<PackageIcon>package_icon.png</PackageIcon>
+		
 		<BaseOutputPath>J:\Google Drive\Software projects\SharedLibraries</BaseOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
+		<None Include="..\package_icon.png" Pack="true" PackagePath="\"/>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+		<None Include="..\LICENSE.TXT" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="docs\images\" />
+	  <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
 	</ItemGroup>
 </Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0culv/d1ginHAwBT22v+FYsOUc1ecCmMidlm0YFVWtUXSBvtEuqd3a8B3HRdueFKySM7SuRj/9U+qX7cnAvXgQ==",
+  "success": true,
+  "projectFilePath": "J:\\Software\\DocXGenerator\\Examples\\BasicExample\\BasicExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\M\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\M\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
+    "C:\\Users\\M\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
