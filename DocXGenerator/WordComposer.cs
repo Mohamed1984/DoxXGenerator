@@ -30,6 +30,15 @@ namespace ReportComposer
 
 		private MemoryStream memStream = new MemoryStream();
 
+
+
+		public void SaveToFile(string fileName)
+		{
+			var stream = new FileStream(fileName, FileMode.Create);
+			SaveToFile(stream);
+			stream.Close();
+		}
+
 		public void SaveToFile(Stream file)
 		{
 			injectData();

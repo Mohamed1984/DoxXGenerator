@@ -2,7 +2,7 @@
   "profiles": {
     "ReportGenerator": {
       "commandName": "Project",
-      "workingDirectory": "J:\\Google Drive\\Software projects\\ReportGenerator"
+      "workingDirectory": "J:\\Software\\ReportGenerator\\Examples\\Workspace"
     }
   }
 }

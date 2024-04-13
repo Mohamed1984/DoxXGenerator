@@ -1,0 +1,43 @@
+{
+    "StudentData": [
+        {
+            "Name": "Ahmed",
+            "Results": [
+                {
+                    "CourseName": "Math",
+                    "Mark": 45
+                },
+                {
+                    "CourseName": "Physics",
+                    "Mark": 76
+                }
+            ]
+        },
+        {
+            "Name": "John",
+            "Results": [
+                {
+                    "CourseName": "Math",
+                    "Mark": 71
+                },
+                {
+                    "CourseName": "Physics",
+                    "Mark": 87
+                }
+            ]
+        },
+        {
+            "Name": "Kassem",
+            "Results": [
+                {
+                    "CourseName": "Math",
+                    "Mark": 67
+                },
+                {
+                    "CourseName": "Physics",
+                    "Mark": 91
+                }
+            ]
+        }
+    ]
+}
