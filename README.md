@@ -6,11 +6,7 @@ DocX Generator generates reports in the form of word files based on template fil
 The template is designed by inserting directives inside label elements.
 
 You can help me continue maintaining and developing this project by making a donation.
-[
-  ![Donate with PayPal]
-  (docs/images/paypal-donate-button.png)
-]
-(https://paypal.me/MohamedHamdy1984?country.x=EG&locale.x=en_US)
+![Donate with PayPal](docs/images/paypal-donate-button.png)(https://paypal.me/MohamedHamdy1984?country.x=EG&locale.x=en_US)
 
 ## 2. Quickstart
 Let's assume that we have some data about students and their course results.
