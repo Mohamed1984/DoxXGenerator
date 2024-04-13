@@ -5,6 +5,13 @@
 DocX Generator generates reports in the form of word files based on template file. The template is a normal word file that is easy to edit and design. The template file is filled with data. The data is assumed to exist in Json data format; thus allowing complex data layout to be mapped to the report.
 The template is designed by inserting directives inside label elements.
 
+You can help me continue maintaining and developing this project by making a donation.
+[
+  ![Donate with PayPal]
+  (docs/images/paypal-donate-button.png)
+]
+(https://paypal.me/MohamedHamdy1984?country.x=EG&locale.x=en_US)
+
 ## 2. Quickstart
 Let's assume that we have some data about students and their course results.
 
