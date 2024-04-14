@@ -147,7 +147,7 @@ namespace ReportComposer
 				return state;
 			}
 
-			if (directive.StartsWith('@') == false)
+			if (directive.StartsWith("@") == false)
 				return HandleState.Advance;
 
 			var regBind = new Regex(@"@(\[(?<contextName>\w(\w|\d)*)\])?{(?<bindExpr>.+)}");

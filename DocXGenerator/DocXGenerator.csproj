@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion> 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageVersion>1.0.6</PackageVersion>
+		<PackageVersion>1.0.7</PackageVersion>
 		<IncludeBuildOutput>true</IncludeBuildOutput>
 		<Description>
 			DocX Generator generates reports in the form of word files based on template file. The template is a normal word file that is easy to edit and design. The template file is filled with data. The data is assumed to exist in Json data format; thus allowing complex data layout to be mapped to the report.
@@ -31,12 +31,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\package_icon.png" Pack="true" PackagePath="\"/>
-		<None Include="README.md" Pack="true" PackagePath="\"/>
-		<None Include="..\LICENSE.TXT" Pack="true" PackagePath="\"/>
+		<None Include="..\package_icon.png" Pack="true" PackagePath="\" />
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.TXT" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
+	  <PackageReference Include="System.Text.Json" Version="8.0.3" />
 	</ItemGroup>
 </Project>
