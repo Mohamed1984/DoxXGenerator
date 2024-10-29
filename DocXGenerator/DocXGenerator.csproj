@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion> 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageVersion>1.0.7</PackageVersion>
+		<PackageVersion>1.0.8</PackageVersion>
 		<IncludeBuildOutput>true</IncludeBuildOutput>
 		<Description>
 			DocX Generator generates reports in the form of word files based on template file. The template is a normal word file that is easy to edit and design. The template file is filled with data. The data is assumed to exist in Json data format; thus allowing complex data layout to be mapped to the report.
